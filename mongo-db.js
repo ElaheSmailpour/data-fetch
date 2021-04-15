@@ -2,7 +2,7 @@
 const mongoose = require("mongoose");
 
 
-let addressString = process.env.mongo || "mongodb+srv://andre:andre@cluster0.icu1z.mongodb.net/test";
+let addressString = process.env.mongo || "";
 let optionen = { useNewUrlParser: true, useUnifiedTopology: true };
 
 const verbindeDB = () => {
